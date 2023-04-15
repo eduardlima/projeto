@@ -60,4 +60,13 @@ form{
     color: beige;
     border-width: 0px;
 }
+#txt1{
+    display: block;
+    width: 250px;
+    right: 180px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 50px;
+    border-color: red;
+}
 
