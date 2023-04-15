@@ -9,8 +9,7 @@ function login(){
 
   if (email === 'usuario@exemplo.com' && senha === '123456') {
    
-    const registrationUrl = "home.html";
-    window.location.href = registrationUrl;
+    window.location.href = "home.html";
 
   } else {
 
