@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style/style.css">
+    <script src="/main/main.js"></script>
 </head>
 <body>
-    <form action="" style="color :black;">
-    <img src="/img/corinthians-logo-png-transparent.png" alt="logo" srcset="">
-    <input type="email" id="e" placeholder="e-mail">
-    <input type="password" id="s" placeholder="senha">
-    <button id="bt">login</button>
+    <form id="login-form" style="color :black;">
+        
+    <img src="/img/corinthians-logo-png-transparent.png" id="logo" alt="logo" srcset="">
+
+    <input type="email" id="email" placeholder="e-mail">
+    <input type="password" id="senha" placeholder="senha">
+    <button onclick="login()" id="bt"> <strong>login</strong></button>
+    <div>
+    <button 
+    onclick="registro() 
+    "id="b">
+    <Strong>registrar</Strong></button>
+    </div>
     </form>
 </body>
 </html>
